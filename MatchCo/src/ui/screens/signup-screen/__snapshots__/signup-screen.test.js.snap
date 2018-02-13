@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#333333",
+          "fontFamily": "Nexa",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Signup screen
+  </Text>
+</View>
+`;

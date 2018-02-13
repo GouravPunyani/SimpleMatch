@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 32,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E1CD96",
+          "borderBottomWidth": 1,
+          "marginBottom": 2,
+          "paddingBottom": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "fontFamily": "SangBleuBP-LightItalic",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Customer Service
+      </Text>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "opacity": 1,
+          "paddingVertical": 4,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Object {
+            "minWidth": 35,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 23,
+              "width": 35,
+            }
+          }
+        />
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "color": "#E1CD96",
+              "fontFamily": "NexaBold",
+              "paddingLeft": 4,
+            },
+          ]
+        }
+      >
+        cs@getmatch.co
+      </Text>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "opacity": 1,
+          "paddingVertical": 4,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Object {
+            "minWidth": 35,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 34,
+              "width": 34,
+            }
+          }
+        />
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "color": "#E1CD96",
+              "fontFamily": "NexaBold",
+              "paddingLeft": 4,
+            },
+          ]
+        }
+      >
+        866.668.4300
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#333333",
+            "fontFamily": "Nexa",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "fontFamily": "SangBleuBP-LightItalic",
+            },
+          ]
+        }
+      >
+        Return Policy: 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        We will gladly accept returns for any reason within 30 days of delivery.
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 32,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E1CD96",
+          "borderBottomWidth": 1,
+          "marginBottom": 2,
+          "paddingBottom": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "fontFamily": "SangBleuBP-LightItalic",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Features and Feedback
+      </Text>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "opacity": 1,
+          "paddingVertical": 4,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Object {
+            "minWidth": 35,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 23,
+              "width": 35,
+            }
+          }
+        />
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "color": "#E1CD96",
+              "fontFamily": "NexaBold",
+              "paddingLeft": 4,
+            },
+          ]
+        }
+      >
+        feedback@getmatch.co
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#333333",
+            "fontFamily": "Nexa",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      We'd love to hear your feedbaack and ideas about our product and App.
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 32,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E1CD96",
+          "borderBottomWidth": 1,
+          "marginBottom": 2,
+          "paddingBottom": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "fontFamily": "SangBleuBP-LightItalic",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Media Inquiries
+      </Text>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "opacity": 1,
+          "paddingVertical": 4,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Object {
+            "minWidth": 35,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 23,
+              "width": 35,
+            }
+          }
+        />
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "color": "#E1CD96",
+              "fontFamily": "NexaBold",
+              "paddingLeft": 4,
+            },
+          ]
+        }
+      >
+        pr@getmatch.co
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#333333",
+            "fontFamily": "Nexa",
+            "fontSize": 14,
+          },
+          Object {
+            "fontFamily": "NexaBold",
+            "fontSize": 22,
+          },
+          Object {
+            "color": "#E1CD96",
+            "fontFamily": "SangBleuBP-LightItalic",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Follow Us
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingTop": 16,
+          "width": 202,
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 38,
+              "width": 38,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 38,
+              "width": 38,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 38,
+              "width": 38,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "justifyContent": "center",
+          "minHeight": 44,
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nexa",
+              "fontSize": 14,
+            },
+            Object {
+              "color": "#E1CD96",
+            },
+          ]
+        }
+      >
+        Learn more at www.getmatch.co
+      </Text>
+    </View>
+  </View>
+</View>
+`;

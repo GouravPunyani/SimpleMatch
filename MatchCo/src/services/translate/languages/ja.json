@@ -1,0 +1,19 @@
+{
+  "drawer": {
+    "newScan": "🇯🇵 NEW SCANs",
+    "product": "🇯🇵 PRODUCT",
+    "account": "🇯🇵 ACCOUNT",
+    "share": "🇯🇵 SPREAD THE WORD",
+    "howToScan": "🇯🇵 HOW TO SCAN",
+    "faqs": "🇯🇵 FAQS",
+    "contact": "🇯🇵 CONTACT US",
+    "login": "🇯🇵 LOGIN",
+    "logout": "🇯🇵 LOGOUT"
+  },
+  "dashboard": {
+    "checkoutButton": "🇯🇵 Proceed To Checkout",
+    "referralsButton": "🇯🇵 Referrals",
+    "notLoggedIn": "🇯🇵 Not Logged In",
+    "loggingIn": "🇯🇵 Logging In"
+  }
+}

@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "prettier.parser": "flow",
+  "flow.runOnEdit": false,
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

@@ -1,0 +1,19 @@
+// @flow
+
+import React, { Component } from 'react'
+import { <%= props.layoutComponent %>, Text } from '../..'
+
+export type Props = {
+  children?: React.Children
+}
+
+export class <%= props.name %> extends Component <*, Props, *> {
+  render () {
+    return (
+      <<%= props.layoutComponent %>>
+        <Text text='<%= props.name %>' title />
+        <Text text='<%= props.target %>' />
+      </<%= props.layoutComponent %>>
+    )
+  }
+}

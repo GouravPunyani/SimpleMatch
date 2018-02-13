@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "opacity": 1,
+      "paddingVertical": 4,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Object {
+        "minWidth": 35,
+        "paddingRight": 4,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={1}
+      style={undefined}
+    />
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#333333",
+          "fontFamily": "Nexa",
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#E1CD96",
+          "fontFamily": "NexaBold",
+          "paddingLeft": 4,
+        },
+      ]
+    }
+  >
+    a
+  </Text>
+</View>
+`;

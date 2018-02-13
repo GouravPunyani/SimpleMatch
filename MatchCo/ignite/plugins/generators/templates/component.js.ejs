@@ -1,0 +1,54 @@
+<%
+ const reactComponentName = props.componentType === 'pure' ? 'PureComponent' : 'Component'
+ const isFunction = props.componentType === 'function'
+-%>
+// @flow
+<% if (isFunction) { -%>
+import React from 'react'
+<% } else { -%>
+import React, { <%= reactComponentName %> } from 'react'
+<% } -%>
+<% if (props.location === 'basics') { -%>
+import { View, Text, StyleSheet } from 'react-native'
+<% } else { -%>
+import { View, StyleSheet } from 'react-native'
+import { Text } from '../..'
+<% } -%>
+
+export type Props = {
+  children?: React.Children
+}
+
+<% /* Stateless Functional Component */ -%>
+<% if (isFunction) { -%>
+export function <%= props.name %> (props: Props): React.Children {
+  return (
+    <View style={styles.wrapper}>
+      <Text style={styles.text}><%= props.kebabName %>.js</Text>
+    </View>
+  )
+}
+<% /* Component or PureComponent */ -%>
+<% } else { -%>
+export class <%= props.name %> extends <%= reactComponentName %><void, Props, void> {
+  render () {
+    return (
+      <View style={styles.wrapper}>
+        <Text style={styles.text}><%= props.kebabName %>.js</Text>
+      </View>
+    )
+  }
+}
+<% } -%>
+
+const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    backgroundColor: 'steelblue',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  text: {
+    fontSize: 30
+  }
+})

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#E1CD96",
+      "borderBottomWidth": 1,
+      "marginBottom": 2,
+      "paddingBottom": 4,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#333333",
+          "fontFamily": "Nexa",
+          "fontSize": 14,
+        },
+        Object {
+          "fontFamily": "SangBleuBP-LightItalic",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    foo
+  </Text>
+</View>
+`;

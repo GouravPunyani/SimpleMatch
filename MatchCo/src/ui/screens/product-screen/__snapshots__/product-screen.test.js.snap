@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "padding": 8,
+    }
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#333333",
+            "fontFamily": "Nexa",
+            "fontSize": 14,
+          },
+          Object {
+            "fontFamily": "NexaBold",
+            "fontSize": 22,
+          },
+        ]
+      }
+    >
+      ProductScreen
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#333333",
+            "fontFamily": "Nexa",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      src/ui/screens/product-screen/product-screen.js
+    </Text>
+  </View>
+</RCTScrollView>
+`;

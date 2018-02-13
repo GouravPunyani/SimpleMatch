@@ -1,0 +1,90 @@
+// This is a JSON5 file.
+{
+  dashboard: {
+    layout: "static"
+  },
+  signup: {
+    layout: "scroll"
+  },
+  login: {
+    layout: "scroll"
+  },
+  forgot: {
+    layout: "scroll"
+  },
+  changePasswordFromToken: {
+    layout: "scroll"
+  },
+  referralIntro: {
+    layout: "static"
+  },
+  pastReferrals: {
+    layout: "scroll"
+  },
+  account: {
+    layout: "scroll"
+  },
+  personal: {
+    layout: "scroll"
+  },
+  changeProfile: {
+    layout: "scroll"
+  },
+  changePassword: {
+    layout: "scroll"
+  },
+  termsOfUse: {
+    layout: "legal"
+  },
+  privacyPolicy: {
+    layout: "legal"
+  },
+  contact: {
+    layout: "scroll"
+  },
+  faq: {
+    layout: "scroll"
+  },
+  orderReview: {
+    layout: "scroll"
+  },
+  shippingAddressList: {
+    layout: "scroll"
+  },
+  shippingAddress: {
+    layout: "scroll"
+  },
+  paymentMethodList: {
+    layout: "scroll"
+  },
+  paymentMethod: {
+    layout: "scroll"
+  },
+  orderConfirmation: {
+    layout: "scroll"
+  },
+  currentOrderList: {
+    layout: "scroll"
+  },
+  completedOrderList: {
+    layout: "scroll"
+  },
+  order: {
+    layout: "scroll"
+  },
+  product: {
+    layout: "scroll"
+  },
+  scanHome: {
+    layout: "static"
+  },
+  scheduleScan: {
+    layout: "scroll"
+  },
+  scan: {
+    layout: "static"
+  },
+  promoCode: {
+    layout: 'dialog'
+  }
+}

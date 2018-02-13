@@ -1,0 +1,96 @@
+{
+  name: "main",
+  type: "stack",
+  defaultKey: "app",
+  children: [
+    // Capturing credentials
+    {
+      name: "credentials",
+      type: "stack",
+      modal: true,
+      children: [
+        { screen: "login" },
+        { screen: "signup" },
+        { screen: "forgot" },
+        { screen: "changePasswordFromToken" }
+      ]
+    },
+    // the guts of the application with the drawer
+    {
+      name: "app",
+      type: "drawer",
+      children: [
+        { screen: "dashboard" },
+
+        // New Scan
+        {
+          name: "scan",
+          type: "stack",
+          children: [
+            { screen: "scanHome" },
+            { screen: "scan" },
+            { screen: "scheduleScan" },
+          ]
+        },
+
+        // Product
+        {
+          name: "product",
+          type: "stack",
+          children: [
+            { screen: "product" },
+            { screen: "orderReview" },
+            { screen: "shippingAddress" },
+            { screen: "paymentMethod" },
+            { screen: "orderConfirmation" },
+            { screen: "referralIntro" },
+            { screen: "pastReferrals" }
+          ]
+        }
+
+        // Account
+        {
+          name: "account",
+          type: "stack",
+          children: [
+            { screen: "currentOrderList" },
+            { screen: "completedOrderList" },
+            { screen: "order" },
+            { screen: "account" },
+            { screen: "contact" },
+            { screen: "faq" },
+            { screen: "termsOfUse" },
+            { screen: "privacyPolicy" },
+            { screen: "personal" },
+            { screen: "changeProfile" },
+            { screen: "changePassword" },
+            { screen: "shippingAddressList" },
+            { screen: "shippingAddress" },
+            { screen: "paymentMethodList" },
+            { screen: "paymentMethod" },
+          ]
+        },
+
+        // Sharing/Referral/Spread The Word
+        {
+          name: "share",
+          type: "stack",
+          children: [
+            { screen: "referralIntro" },
+            { screen: "pastReferrals" }
+          ]
+        },
+
+        // How To Scan
+        { screen: "scanHome" }
+
+        // FAQs
+        { screen: "faq" },
+
+        // Contact Us
+        { screen: "contact" },
+
+      ]
+    }
+  ]
+}
